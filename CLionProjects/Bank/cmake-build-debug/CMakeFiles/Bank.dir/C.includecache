@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hectorramirez/CLionProjects/Bank/date.c
+date.h
+/home/hectorramirez/CLionProjects/Bank/date.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/home/hectorramirez/CLionProjects/Bank/date.h
+
+/home/hectorramirez/CLionProjects/Bank/main.c
+stdio.h
+-
+string.h
+-
+owner.h
+/home/hectorramirez/CLionProjects/Bank/owner.h
+
+/home/hectorramirez/CLionProjects/Bank/owner.c
+owner.h
+/home/hectorramirez/CLionProjects/Bank/owner.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+date.h
+/home/hectorramirez/CLionProjects/Bank/date.h
+
+/home/hectorramirez/CLionProjects/Bank/owner.h
+date.h
+/home/hectorramirez/CLionProjects/Bank/date.h
+

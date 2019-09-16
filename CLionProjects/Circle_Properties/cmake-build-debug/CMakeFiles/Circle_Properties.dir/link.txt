@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Circle_Properties.dir/circle-properties.c.o CMakeFiles/Circle_Properties.dir/test.c.o  -o Circle_Properties 

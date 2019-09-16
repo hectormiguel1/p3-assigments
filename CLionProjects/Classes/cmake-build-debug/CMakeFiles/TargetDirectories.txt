@@ -1,0 +1,3 @@
+/home/hector/CLionProjects/Classes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hector/CLionProjects/Classes/cmake-build-debug/CMakeFiles/Classes.dir
+/home/hector/CLionProjects/Classes/cmake-build-debug/CMakeFiles/edit_cache.dir

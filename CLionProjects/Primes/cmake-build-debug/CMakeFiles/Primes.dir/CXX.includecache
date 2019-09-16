@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hector/CLionProjects/Primes/PrimeSequence.cpp
+PrimeSequence.h
+/home/hector/CLionProjects/Primes/PrimeSequence.h
+
+/home/hector/CLionProjects/Primes/PrimeSequence.h
+

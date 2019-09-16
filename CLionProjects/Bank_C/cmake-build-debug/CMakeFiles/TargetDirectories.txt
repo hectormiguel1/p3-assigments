@@ -1,0 +1,3 @@
+/home/hector/CLionProjects/Bank_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hector/CLionProjects/Bank_C/cmake-build-debug/CMakeFiles/Bank_C.dir
+/home/hector/CLionProjects/Bank_C/cmake-build-debug/CMakeFiles/edit_cache.dir
