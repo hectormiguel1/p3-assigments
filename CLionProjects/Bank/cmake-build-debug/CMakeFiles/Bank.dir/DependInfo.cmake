@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hectorramirez/CLionProjects/Bank/date.c" "/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/date.c.o"
-  "/home/hectorramirez/CLionProjects/Bank/main.c" "/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/main.c.o"
-  "/home/hectorramirez/CLionProjects/Bank/owner.c" "/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/owner.c.o"
+  "/home/hectorr/p3-assigments/CLionProjects/Bank/Account.c" "/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/Account.c.o"
+  "/home/hectorr/p3-assigments/CLionProjects/Bank/date.c" "/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/date.c.o"
+  "/home/hectorr/p3-assigments/CLionProjects/Bank/main.c" "/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/main.c.o"
+  "/home/hectorr/p3-assigments/CLionProjects/Bank/owner.c" "/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/owner.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

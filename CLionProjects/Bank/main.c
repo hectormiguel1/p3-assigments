@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "owner.h"
+#include "time.h"
 
 /**typedef struct Date
 {
@@ -46,4 +47,9 @@ int main()
     setFName(hector,"Luis");
     printf("Object first name is: %s \n",getFirstName(hector));
     destroy_Owner(hector);
+
+    time_t now;
+
+    struct tm *local = localtime(&now);
+
 }

@@ -8,4 +8,6 @@ typedef struct Date Date;
 Date *new_Date(int month, int day, int year);
 void destroy_Date(Date *self);
 char *dateToString(Date *self);
+static Date* getTodayDate();
+
 #endif //BANK_DATE_H

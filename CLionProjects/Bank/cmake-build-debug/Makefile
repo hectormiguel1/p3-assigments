@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hectorramirez/CLion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/hectorr/CLion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hectorramirez/CLion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/hectorr/CLion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hectorramirez/CLionProjects/Bank
+CMAKE_SOURCE_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hectorramirez/CLionProjects/Bank/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hectorramirez/CLionProjects/Bank/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hectorramirez/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hectorr/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hectorramirez/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hectorr/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles /home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ Bank: cmake_check_build_system
 Bank/fast:
 	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/build
 .PHONY : Bank/fast
+
+Account.o: Account.c.o
+
+.PHONY : Account.o
+
+# target to build an object file
+Account.c.o:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/Account.c.o
+.PHONY : Account.c.o
+
+Account.i: Account.c.i
+
+.PHONY : Account.i
+
+# target to preprocess a source file
+Account.c.i:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/Account.c.i
+.PHONY : Account.c.i
+
+Account.s: Account.c.s
+
+.PHONY : Account.s
+
+# target to generate assembly for a file
+Account.c.s:
+	$(MAKE) -f CMakeFiles/Bank.dir/build.make CMakeFiles/Bank.dir/Account.c.s
+.PHONY : Account.c.s
 
 date.o: date.c.o
 
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Bank"
 	@echo "... edit_cache"
+	@echo "... Account.o"
+	@echo "... Account.i"
+	@echo "... Account.s"
 	@echo "... date.o"
 	@echo "... date.i"
 	@echo "... date.s"

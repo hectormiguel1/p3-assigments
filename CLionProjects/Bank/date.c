@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include "time.h"
 
 typedef struct Date
 {
@@ -31,4 +32,16 @@ char *dateToString(Date *self)
 void destroy_Date(Date *self)
 {
     free(self);
+}
+
+static Date* getTodayDate()
+{
+    time_t now;
+    struct tm *local = localtime(&now);
+
+    int day = local->tm_mday;
+    int month = local->tm_mon + 1;
+    int year = local ->tm_year + 1900;
+
+    return new_Date(month,day,year);
 }

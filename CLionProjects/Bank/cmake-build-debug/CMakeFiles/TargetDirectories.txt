@@ -1,3 +1,3 @@
-/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir
-/home/hectorramirez/CLionProjects/Bank/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir
+/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/edit_cache.dir

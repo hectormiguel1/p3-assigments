@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Bank.dir/main.c.o"
   "CMakeFiles/Bank.dir/owner.c.o"
   "CMakeFiles/Bank.dir/date.c.o"
+  "CMakeFiles/Bank.dir/Account.c.o"
   "Bank.pdb"
   "Bank"
 )
