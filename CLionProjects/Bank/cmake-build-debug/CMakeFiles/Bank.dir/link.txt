@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Bank.dir/main.c.o CMakeFiles/Bank.dir/owner.c.o CMakeFiles/Bank.dir/date.c.o CMakeFiles/Bank.dir/Account.c.o  -o Bank 
+/usr/bin/gcc -g   CMakeFiles/Bank.dir/main.c.o CMakeFiles/Bank.dir/owner.c.o CMakeFiles/Bank.dir/date.c.o CMakeFiles/Bank.dir/Account.c.o  -o Bank 

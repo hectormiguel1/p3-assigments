@@ -24,17 +24,17 @@ char *dateToString(Date *self)
 {
     char stringDate[10];
     sprintf(stringDate,"%d/%d/%d",self->month,self->day,self->year);
-    char *pointerToDate = malloc(strlen(stringDate));
-    strcpy(pointerToDate,stringDate);
-    return pointerToDate;
+    char *pointerToDateString = malloc(strlen(stringDate));
+    strcpy(pointerToDateString,stringDate);
+    return pointerToDateString;
 }
 
 void destroy_Date(Date *self)
 {
     free(self);
 }
-
-static Date* getTodayDate()
+//NEEDS TO BE IMPROVED, not Working correctly
+Date* getTodayDate()
 {
     time_t now;
     struct tm *local = localtime(&now);

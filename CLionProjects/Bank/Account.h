@@ -13,8 +13,7 @@ void destroy_Account (Account* self);
 void deposit(Account* self, double amount);
 int withdraw(Account* self, double amount);
 int initTransfer(Account* srcAccount, Account* destAccount, double amount);
-char(* toString(Account* self));
-
+char (*accountToString(Account* self));
 
 
 #endif //BANK_ACCOUNT_H

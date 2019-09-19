@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hectorr/CLion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /aul/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hectorr/CLion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /aul/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank
+CMAKE_SOURCE_DIR = /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug
+CMAKE_BINARY_DIR = /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hectorr/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/a/buffalo.cs.fiu.edu./disk/jccl-002/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hectorr/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/a/buffalo.cs.fiu.edu./disk/jccl-002/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

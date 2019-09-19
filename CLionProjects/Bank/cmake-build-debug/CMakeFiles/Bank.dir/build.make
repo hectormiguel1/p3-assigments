@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hectorr/CLion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /aul/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hectorr/CLion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /aul/homes/hrami024/clion-2019.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank
+CMAKE_SOURCE_DIR = /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug
+CMAKE_BINARY_DIR = /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Bank.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Bank.dir/flags.make
 
 CMakeFiles/Bank.dir/main.c.o: CMakeFiles/Bank.dir/flags.make
 CMakeFiles/Bank.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Bank.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/main.c.o   -c /home/hectorr/p3-assigments/CLionProjects/Bank/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Bank.dir/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/main.c.o   -c /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/main.c
 
 CMakeFiles/Bank.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bank.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hectorr/p3-assigments/CLionProjects/Bank/main.c > CMakeFiles/Bank.dir/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/main.c > CMakeFiles/Bank.dir/main.c.i
 
 CMakeFiles/Bank.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bank.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hectorr/p3-assigments/CLionProjects/Bank/main.c -o CMakeFiles/Bank.dir/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/main.c -o CMakeFiles/Bank.dir/main.c.s
 
 CMakeFiles/Bank.dir/owner.c.o: CMakeFiles/Bank.dir/flags.make
 CMakeFiles/Bank.dir/owner.c.o: ../owner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Bank.dir/owner.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/owner.c.o   -c /home/hectorr/p3-assigments/CLionProjects/Bank/owner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Bank.dir/owner.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/owner.c.o   -c /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/owner.c
 
 CMakeFiles/Bank.dir/owner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bank.dir/owner.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hectorr/p3-assigments/CLionProjects/Bank/owner.c > CMakeFiles/Bank.dir/owner.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/owner.c > CMakeFiles/Bank.dir/owner.c.i
 
 CMakeFiles/Bank.dir/owner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bank.dir/owner.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hectorr/p3-assigments/CLionProjects/Bank/owner.c -o CMakeFiles/Bank.dir/owner.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/owner.c -o CMakeFiles/Bank.dir/owner.c.s
 
 CMakeFiles/Bank.dir/date.c.o: CMakeFiles/Bank.dir/flags.make
 CMakeFiles/Bank.dir/date.c.o: ../date.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Bank.dir/date.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/date.c.o   -c /home/hectorr/p3-assigments/CLionProjects/Bank/date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Bank.dir/date.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/date.c.o   -c /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/date.c
 
 CMakeFiles/Bank.dir/date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bank.dir/date.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hectorr/p3-assigments/CLionProjects/Bank/date.c > CMakeFiles/Bank.dir/date.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/date.c > CMakeFiles/Bank.dir/date.c.i
 
 CMakeFiles/Bank.dir/date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bank.dir/date.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hectorr/p3-assigments/CLionProjects/Bank/date.c -o CMakeFiles/Bank.dir/date.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/date.c -o CMakeFiles/Bank.dir/date.c.s
 
 CMakeFiles/Bank.dir/Account.c.o: CMakeFiles/Bank.dir/flags.make
 CMakeFiles/Bank.dir/Account.c.o: ../Account.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Bank.dir/Account.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/Account.c.o   -c /home/hectorr/p3-assigments/CLionProjects/Bank/Account.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Bank.dir/Account.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Bank.dir/Account.c.o   -c /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/Account.c
 
 CMakeFiles/Bank.dir/Account.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Bank.dir/Account.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hectorr/p3-assigments/CLionProjects/Bank/Account.c > CMakeFiles/Bank.dir/Account.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/Account.c > CMakeFiles/Bank.dir/Account.c.i
 
 CMakeFiles/Bank.dir/Account.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Bank.dir/Account.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hectorr/p3-assigments/CLionProjects/Bank/Account.c -o CMakeFiles/Bank.dir/Account.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/Account.c -o CMakeFiles/Bank.dir/Account.c.s
 
 # Object files for target Bank
 Bank_OBJECTS = \
@@ -125,7 +125,7 @@ Bank: CMakeFiles/Bank.dir/date.c.o
 Bank: CMakeFiles/Bank.dir/Account.c.o
 Bank: CMakeFiles/Bank.dir/build.make
 Bank: CMakeFiles/Bank.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Bank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Bank"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bank.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Bank.dir/clean:
 .PHONY : CMakeFiles/Bank.dir/clean
 
 CMakeFiles/Bank.dir/depend:
-	cd /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hectorr/p3-assigments/CLionProjects/Bank /home/hectorr/p3-assigments/CLionProjects/Bank /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug /home/hectorr/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug /aul/homes/hrami024/CLionProjects/p3-assigments/CLionProjects/Bank/cmake-build-debug/CMakeFiles/Bank.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Bank.dir/depend
 

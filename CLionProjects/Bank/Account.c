@@ -1,6 +1,8 @@
 #include "Account.h"
 #include "date.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include "string.h"
 
 const int INSUFFICIENT_FOUNDS = -1;
 const int SUCCESS = 0;
@@ -17,7 +19,9 @@ Account* new_Account(Owner* owner, double initBalance)
     Account* tmp = (Account*)malloc(sizeof(Account));
     tmp->owner = owner;
     tmp->accountBalance = initBalance;
-    Date* createdDate = getTodayDate();
+    tmp->DateCreated = getTodayDate();
+
+    return tmp;
 }
 
 void destroy_Account(Account* self)
@@ -56,5 +60,19 @@ int initTransfer(Account* srcAccount, Account* destAccount, double amount)
         deposit(destAccount, amount);
         return SUCCESS;
     }
+}
+
+char (*accountToString(Account* self))
+{
+    char accountString[1000];
+    sprintf(accountString,"Owner: %s %s"
+           "\nDOB: %s"
+           "\nAccount Balance: %.2f"
+                          ,getFirstName(self->owner), getLastName(self->owner)
+                          ,getDate(self->owner)
+                          ,self->accountBalance);
+    char *accountStringPointer = (char*) malloc(sizeof(accountString));
+    strcpy(accountStringPointer,accountString);
+    return accountStringPointer;
 }
 
